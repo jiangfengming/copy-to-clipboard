@@ -1,6 +1,6 @@
 {
   "name": "@jfm/copy-to-clipboard",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "14 lines of codes to copy to text into clipboard.",
   "main": "dist/index.js",
   "scripts": {
