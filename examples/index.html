@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>copytoclipboard</title>
+  </head>
+
+  <body>
+    <button id="copy">copy</button>
+
+      <script type="module">
+      import copy from '../src/index.js'
+
+      document.getElementById('copy').addEventListener('click', () => {
+        copy('hello')
+      })
+      </script>
+  </body>
+</html>

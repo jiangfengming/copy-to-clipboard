@@ -1,0 +1,48 @@
+{
+  "name": "@jfm/copy-to-clipboard",
+  "version": "0.0.0",
+  "description": "14 lines of codes to copy to text into clipboard.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.esm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangfengming/copy-to-clipboard.git"
+  },
+  "keywords": [
+    "clipboard"
+  ],
+  "author": "Jiang Fengming <jiangfengming87@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiangfengming/copy-to-clipboard/issues"
+  },
+  "homepage": "https://github.com/jiangfengming/copy-to-clipboard#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.2.0",
+    "eslint-config-enough": "^0.3.5",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "loose": true,
+          "modules": false
+        }
+      ]
+    ]
+  },
+  "eslintConfig": {
+    "extends": "enough",
+    "env": {
+      "browser": true
+    }
+  }
+}
